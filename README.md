@@ -12,6 +12,11 @@ Este módulo facilita o envio de mensagens e também lidará com o suporte legad
 - Express FrameWork
 - Web-Push
 
+##### Gerando VapidKeys
+````
+./node_modules/.bin/web-push generate-vapid-keys
+````
+
 ````
 Instalação
 yarn install/npm install
