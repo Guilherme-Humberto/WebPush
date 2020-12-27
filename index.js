@@ -4,7 +4,6 @@ const path = require("path")
 const webPush = require("web-push")
 
 const app = express()
-
 app.use(express.static(path.join(__dirname, "client")))
 app.use(bodyParser.json())
 
